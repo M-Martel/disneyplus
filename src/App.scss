@@ -1,0 +1,48 @@
+// Breakpoints
+$sm-breakpoint: 575px;
+$md-breakpoint: 767px;
+$lg-breakpoint: 991px;
+$xl-breakpoint: 1199px;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.contenair {
+    background-color: #282a36;
+}
+
+.App-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.App-logo {
+    max-width: 20%;
+}
+.allstar {
+    display: flex;
+}
+.studio {
+    width: 30%;
+}
+.studio img {
+    width: 100%;
+}
+.newmovie {
+    display: flex;
+    flex-direction: row;
+    max-width: 7rem;
+}
+.topmovie {
+    display: flex;
+    flex-direction: row;
+    max-width: 7rem;
+}
